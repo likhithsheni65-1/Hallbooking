@@ -1,0 +1,83 @@
+/* fixing fotter */
+/* body { padding-bottom: 1px; } */
+
+.logo{
+	width: 48px;
+	height: 48px;
+	border-radius: 15px;
+}
+/* Header Section */
+.intro {
+	display: table;
+	width: 100%;
+	padding: 0;
+	background: url(../Media/intro-bg.jpg) no-repeat center center;
+	background-color: #e5e5e5;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+.intro .overlay {
+	background: rgba(0,0,0,0.4);
+}
+.intro h1 {
+	font-family: 'Dancing Script', cursive;
+	color: #fff;
+	font-size: 10em;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+.intro span {
+	color: #a7c44c;
+	font-weight: 600;
+}
+.intro p {
+	color: #fff;
+	font-size: 32px;
+	font-weight: 300;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+header .intro-text {
+	padding-top: 250px;
+	padding-bottom: 200px;
+	text-align: center;
+}
+
+
+/* halls list */
+.halls-head{
+	text-align: center;
+	padding: 25px;
+	font-family: Old Standard TT;
+	font-size:45px;
+}
+.bg-halls{
+	background-color: #dedbd3;
+}
+.bg-halls-card{
+	background-color: #B9B2A0;
+	color: #46433B;
+}
+.contact-container{
+	font-family: Courier, Old Standard TT;
+	font-size:20px;
+}
+.page-height{
+	min-height: 80vh;
+}
+.btn-outline-white{
+	border: 2px solid white;
+	border-radius: 5px;
+	color: white;
+}
+.btn-outline-white:hover{
+	border: 2px solid white;
+	background-color: white;
+	color:black
+}
+.footer-register{
+	background-color: #2e3439 ;
+}
